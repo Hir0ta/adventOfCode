@@ -21,7 +21,7 @@
           }
         };
 
-        print 'Dear Santa! You should go the floor ' . $floor . '! You\'re welcome! I hope you will remember this next year! :P';
+        print 'Dear Santa! You should go to the floor ' . $floor . '! You\'re welcome! I hope you will remember this next year! :P';
       ?>
   </body>
 
