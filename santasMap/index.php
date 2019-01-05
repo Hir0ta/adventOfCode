@@ -12,12 +12,19 @@
         include 'data.php';
         $arr = str_split($str);
         $floor = 0;
+        $i = 0;
 
         foreach($arr as $inst) {
+          //part one
           if ($inst == '(') {
             $floor++;
           }else {
             $floor--;
+          }
+          //part two
+          $i++;
+          if ($floor == -1){
+            die(print $i);
           }
         };
 
