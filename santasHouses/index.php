@@ -31,8 +31,8 @@
             $sX++;
            }else if($coor == '<'){
             $sX--; 
-           }else if ($coor == '^'){
            //get the y coordinate
+           }else if ($coor == '^'){
              $sY++;
            }else if ($coor == 'v'){
              $sY--;
